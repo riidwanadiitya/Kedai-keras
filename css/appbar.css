@@ -1,0 +1,7 @@
+.app-bar {
+    padding: 16px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    box-shadow: rgb(141, 81, 81);
+}

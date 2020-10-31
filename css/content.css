@@ -1,0 +1,76 @@
+.content {
+    background-color: yellowgreen;
+    color: black;
+    display: block;
+    padding: 20px;
+    padding-bottom: 75px;
+    margin-top: 30px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 285px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px 10px black;
+}
+
+.content>img {
+    width: 700px;
+    max-height: 700px;
+    padding-top: 24px;
+    object-fit: contain;
+    margin-left: 4.2%;
+}
+
+.content>p {
+    padding: 24px;
+}
+
+.content>li {
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+.content>h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content>h2 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.content>form>button {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float: left;
+    margin-left: 283px;
+    margin-bottom: 20px;
+}
+
+.content>form>button:hover {
+    background-color: rgb(7, 85, 7);
+}
+
+.content>form>button:active {
+    background-color: rgb(7, 85, 7);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.content>form>button>a {
+    color: white;
+    text-decoration-line: none;
+}
